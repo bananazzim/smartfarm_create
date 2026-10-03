@@ -1,0 +1,21 @@
+온실연구실: http://127.0.0.1:8000
+INFO:     127.0.0.1:51219 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52799 - "GET /layout?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=rotated&crop=leaf&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /export.svg?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=rotated&crop=leaf&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /export.svg?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=rotated&crop=leaf&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /report?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=rotated&crop=leaf&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?orientation=rotated&mode=blueprint&width=12&length=24&bed_width=1&bed_length=4&path=0.5&main_path=1.2&margin=0.5&entry=1.5&crop=strawberry HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?width=10&length=20&bed_width=1&bed_length=4&path=0.5&margin=0&main_path=0&entry=0&crop=strawberry&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?width=6&length=10&bed_width=0.8&bed_length=2&path=0.4&margin=0.3&main_path=0.8&entry=1&crop=strawberry&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?width=8&length=30&bed_width=1&bed_length=4&path=0.4&margin=0.4&main_path=1&entry=1.2&crop=strawberry&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&crop=strawberry&mode=blueprint HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?width=3&length=6&bed_width=4&bed_length=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?width=3&length=6&bed_width=4&bed_length=2&path=0.5&margin=0&main_path=0&entry=0&orientation=rotated&crop=leaf&mode=crop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52799 - "GET /layout?margin=8 HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:56860 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62968 - "GET /layout?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=rotated&crop=leaf&mode=crop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62968 - "GET /layout?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=original&crop=leaf&mode=crop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63781 - "GET /layout?width=12&length=24&bed_width=1&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=original&crop=leaf&mode=crop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57212 - "GET /layout?orientation=original&mode=crop&width=12&length=24&bed_width=2&bed_length=4&path=0.5&main_path=1.2&margin=0.5&entry=1.5&crop=leaf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52592 - "GET /layout?width=12&length=24&bed_width=2&bed_length=4&path=0.5&margin=0.5&main_path=1.2&entry=1.5&orientation=rotated&crop=leaf&mode=crop HTTP/1.1" 200 OK
